@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program</title>
+</head>
+
+<script type="text/javascript">
+    function fun() {
+    var num1 = parseFloat(document.getElementById("num1").value);
+    var num2 = parseFloat(document.getElementById("num2").value);
+    var num3 = parseFloat(document.getElementById("num3").value);
+
+    if(num1 < 100) {
+        if(num2 < 100 && num3 < 100) {
+            document.getElementById("ans").innerHTML = `Numbers less than 100 are: ${num1}, ${num2}, ${num3}`;
+        } else if(num2 < 100) {
+            document.getElementById("ans").innerHTML = `Numbers less than 100 are: ${num1}, ${num2}`;
+        } else if(num3 < 100) {
+            document.getElementById("ans").innerHTML = `Numbers less than 100 are: ${num1}, ${num3}`;
+        } else {
+            document.getElementById("ans").innerHTML = `Numbers less than 100 is: ${num1}`;
+        }
+    } else if(num2 < 100) {
+        if(num3 < 100) {
+            document.getElementById("ans").innerHTML = `Numbers less than 100 are: ${num2}, ${num3}`;
+        } else {
+            document.getElementById("ans").innerHTML = `Numbers less than 100 is: ${num2}`;
+        }
+    } else if(num3 < 100) {
+        document.getElementById("ans").innerHTML = `Numbers less than 100 is: ${num3}`;
+    } else {
+        document.getElementById("ans").innerHTML = "All the numbers are greater than or equal to 100";
+    }
+}
+</script>
+
+<body>
+    <h3 style="text-align:center;">Take Three Number's Input and Print Numbers that are less than 100</h3> <br>
+    <form onsubmit="event.preventDefault()">
+        Enter 1st Number:
+        <input type="number" id="num1" required> </br></br>
+        Enter 2nd Number:
+        <input type="number" id="num2" required> </br></br>
+        Enter 3rd Number:
+        <input type="number" id="num3" required>
+        <h4 id="ans"></h4>
+        <button onclick="fun()">Answer</button>
+    </form>
+</body>
+</html>
