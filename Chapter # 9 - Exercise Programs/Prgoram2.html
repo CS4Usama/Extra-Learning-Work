@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Program # 2</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        function avgMarks(a, b, c) {
+            var avg = (a+b+c) / 3;
+            // Here toFixed() Built-in Function is used to fix decimal places upto 2 digits
+            return avg.toFixed(2);
+        }
+
+        // Here parseFloat is used to convert prompt's input in Numbers because prompt will always gives you a string.
+        var marks1 = parseFloat(prompt("Enter 1st Subject Marks:"));
+        var marks2 = parseFloat(prompt("Enter 2nd Subject Marks:"));
+        var marks3 = parseFloat(prompt("Enter 3rd Subject Marks:"));
+        
+        // Function Calling
+        document.write("Your Average Marks in Three Subjects is: " + avgMarks(marks1, marks2, marks3));
+
+    </script>
+</body>
+</html>

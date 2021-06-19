@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Program # 1</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        function maxNumber(a, b) {
+            if(a > b) {
+                document.write(a + " is a Maximum Number.");
+            } else {
+                document.write(b + " is a Maximum Number.");
+            }
+        }
+
+        // Here parseFloat is used to convert prompt's input in Numbers because prompt will always gives you a string.
+        var num1 = parseFloat(prompt("Enter 1st Number:"));
+        var num2 = parseFloat(prompt("Enter 2nd Number:"));
+
+        // Function Calling
+        maxNumber(num1, num2);
+
+    </script>
+</body>
+</html>

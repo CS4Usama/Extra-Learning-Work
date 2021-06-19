@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Program # 5</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        arr = new Array(7);
+        arr[0] = 300;
+        arr[1] = -200;
+        arr[2] = 500;
+        arr[3] = -100;
+        arr[4] = 400;
+        arr[5] = 100;
+        arr[6] = 200;
+
+        // To Print Unsorted Array
+        document.write("Unsorted Array: ");
+        for(var i=0; i<7; i++)
+            document.write(' ' + arr[i]);
+
+        /* sort() Built-in Function is used to sort string values. We will trigger this function by passing another
+        call-back function as a parameter. This call-back function has two parameters, this will order an array by
+        subtracting every next two values */
+        
+        var sortedArr = arr.sort(function(a,b) {
+            return a-b;
+        });
+
+        document.write('<br> Sorted Array: ' + sortedArr);
+
+    </script>
+</body>
+</html>

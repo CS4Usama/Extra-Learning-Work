@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Program # 4</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        arr = new Array(5);
+        arr[0] = 100;
+        arr[1] = 200;
+        arr[2] = 300;
+        arr[3] = 400;
+        arr[4] = 500;
+
+        // To Print All the Numbers of Array
+        document.write("Numbers in the Array are: ");
+        for(var i=0; i<5; i++)
+            document.write(' ' + arr[i]);
+
+        // Declare and Initialize 'max' and 'min' variables to array's first index element
+        var max = arr[0], min = arr[0];
+
+        // To find maximum and minimum elements of the array
+        for(var i=0; i<=9; i++) {
+            if(max < arr[i])
+                max = arr[i];
+            if(min > arr[0])
+                min = arr[i];
+        }
+
+        document.write('<br>' + "Maximum Number in the Array is: " + max);
+        document.write('<br>' + "Minimum Number in the Array is: " + min);
+
+    </script>
+</body>
+</html>

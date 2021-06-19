@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Program # 3</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        // Here parseFloat is used to convert prompt's input in Numbers because prompt will always gives you a string.
+        var num = parseFloat(prompt("Enter a Number to Search in the Array:"));
+
+        arr = new Array(10);
+        arr[0] = 100;
+        arr[1] = 200;
+        arr[2] = 300;
+        arr[3] = 400;
+        arr[4] = 500;
+        arr[5] = 600;
+        arr[6] = 700;
+        arr[7] = 800;
+        arr[8] = 900;
+        arr[9] = 1000;
+
+        // To Print All the Numbers of Array
+        document.write("Numbers in the Array are: ");
+        for(var i=0; i<=9; i++)
+            document.write(' ' + arr[i]);
+
+        // Search number in the array. If number is present then boolean flag will set true
+        let flag = false;
+        for(var i=0; i<=9; i++)
+            if(num == arr[i])
+                flag = true;
+
+        if(flag === true) 
+            document.write("<br>" + num + " is present in the Array.");
+        else 
+            document.write("<br>" + num + " is not present in the Array.");
+
+    </script>
+</body>
+</html>
