@@ -17,3 +17,34 @@
 4. Infinite Loop using JMP
 5. Input String and Display it
 6. Table
+8. _**Pattern Collection**_ </br>
+
+       ✯ Pattern 1
+            $$$$
+            $$$$
+            $$$$
+
+       ✯ Pattern 2
+            $
+            $$
+            $$$
+            $$$$
+
+       ✯ Pattern 3
+               $
+              $$$
+             $$$$$
+            $$$$$$$
+
+       ✯ Pattern 7
+            $$$$$
+            $$$$
+            $$$
+            $$
+            $
+
+       ✯ Pattern 8
+            A
+            B C
+            D E F
+            G H I J
