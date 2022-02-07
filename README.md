@@ -31,20 +31,39 @@
             $$$$
 
        ✯ Pattern 3
-               $
-              $$$
-             $$$$$
-            $$$$$$$
-
-       ✯ Pattern 7
             $$$$$
             $$$$
             $$$
             $$
             $
 
-       ✯ Pattern 8
+       ✯ Pattern 4
             A
             B C
             D E F
             G H I J
+
+       ✯ Pattern 5
+            A B C D
+            E F G
+            H I
+            J
+
+       ✯ Pattern 6
+            1
+            2 3
+            4 5 6
+            7 8 9 10
+
+       ✯ Pattern 7
+            1
+            1 2
+            1 2 3
+            1 2 3 4
+            1 2 3 4 5
+
+       ✯ Pattern 00
+               $
+              $$$
+             $$$$$
+            $$$$$$$
