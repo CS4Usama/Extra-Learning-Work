@@ -13,3 +13,7 @@
 ### Assembly Language for x86 Processors
 1. Calculator Program
 2. Fahrenheit to Celsius Temperature Conversion
+3. Find Factorial of Given Number
+4. Infinite Loop using JMP
+5. Input String and Display it
+6. Table
