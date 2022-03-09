@@ -19,56 +19,56 @@
 6. Table
 8. _**Pattern Collection**_ </br>
 
-       ✯ Pattern 1
+       ✯ Pattern 01
             $$$$
             $$$$
             $$$$
 
-       ✯ Pattern 2
+       ✯ Pattern 02
             $
             $$
             $$$
             $$$$
 
-       ✯ Pattern 3
+       ✯ Pattern 03
             $$$$$
             $$$$
             $$$
             $$
             $
 
-       ✯ Pattern 4
+       ✯ Pattern 04
             A
             B C
             D E F
             G H I J
 
-       ✯ Pattern 5
+       ✯ Pattern 05
             A B C D
             E F G
             H I
             J
 
-       ✯ Pattern 6
+       ✯ Pattern 06
             1
             2 3
             4 5 6
             7 8 9 10
 
-       ✯ Pattern 7
+       ✯ Pattern 07
             1
             1 2
             1 2 3
             1 2 3 4
             1 2 3 4 5
 
-       ✯ Pattern 8
+       ✯ Pattern 08
                $
               $$$
              $$$$$
             $$$$$$$
 
-       ✯ Pattern 9
+       ✯ Pattern 09
             $ $ $ $ $
              $ $ $ $
               $ $ $
